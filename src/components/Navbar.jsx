@@ -8,7 +8,7 @@ const Navbar = () => {
   const [about, setAbout] = useState(false);
   const [service, setService] = useState(false);
   return (
-    <div className="flex justify-around h-[90px] items-center px-[1rem]">
+    <div className="flex justify-around h-[90px] items-center px-[1rem] fixed top-0 w-full">
       <aside className="w-[200px]">
         <img src={nanoImage} alt="" className="w-full" />
       </aside>

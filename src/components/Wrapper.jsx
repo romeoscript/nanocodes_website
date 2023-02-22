@@ -1,0 +1,33 @@
+import React from "react";
+import Swiperjs from "./Swiperjs";
+import { SwiperSlide } from "swiper/react";
+import slide1 from '../images/slider1.png'
+
+const Wrapper = () => {
+  return (
+    <section className="mt-[90px] flex items-center justify-around min-h-[90vh] p-[1rem]">
+      <div className="basis-[45%] ">
+        <h2 className="text-5xl text-white font-bold mb-[2rem]">
+          Coding Hub <br /> <span>For All</span>
+        </h2>
+        <button className="bg-gradient-to-r from-blue-900 via-transparent to-red-500 rounded-[10px] px-[4rem] py-[0.7rem] text-white font-bold">
+          Get Started
+        </button>
+      </div>
+     <div className="basis-[45%] w-[300px] ">
+     <Swiperjs >
+        <SwiperSlide>
+            <div className="relative min-h-[350px]">
+                <img src={slide1} alt=""  className="w-[400px] m-auto h-[300px] "/>
+                <div className="absolute bottom-[10%] z-[10] flex items-center justify-center w-full">
+                    <p className="  bg-blue-900 shadow-lg rounded-[10px] w-[50%] py-[0.5rem] font-bold text-2xl text-white text-center">We Teach</p>
+                </div>
+            </div>
+        </SwiperSlide>
+      </Swiperjs>
+     </div>
+    </section>
+  );
+};
+
+export default Wrapper;

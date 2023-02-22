@@ -37,7 +37,7 @@ const Footer = () => {
           <p className="flex items-center justify-center mt-[1rem] font-bold"><BsFacebook className="mx-[0.5rem]"/> <BsTwitter className="mx-[0.5rem]"/> <BsInstagram className="mx-[0.5rem]"/></p>
         </aside>
       </section>
-      <p>@Nanocodes Programming 2023</p>
+      <p className="text-center text-white">@Nanocodes Programming 2023</p>
     </>
   );
 };

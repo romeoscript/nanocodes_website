@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 const Layout = ({ children }) => {
   return (
     <>
-      <section className=" bg-[#030C4B]">
+      <section >
         <Navbar />
         {children}
         <Footer />

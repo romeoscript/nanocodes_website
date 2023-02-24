@@ -1,5 +1,6 @@
 import React from "react";
 import Journey from "../components/Journey";
+import LadyForm from "../components/LadyForm";
 import Layout from "../components/Layout";
 import ServiceCard from "../components/ServiceCard";
 import SwiperCard from "../components/SwiperCard";
@@ -14,6 +15,7 @@ const Home = () => {
       <ServiceCard />
       <SwiperCard />
       <Journey />
+      <LadyForm />
     </Layout>
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import Counter from "../components/Counter";
 import Journey from "../components/Journey";
 import LadyForm from "../components/LadyForm";
 import Layout from "../components/Layout";
@@ -19,6 +20,7 @@ const Home = () => {
       <Journey />
       <LadyForm />
       <Nano />
+      <Counter/>
     </Layout>
   );
 };

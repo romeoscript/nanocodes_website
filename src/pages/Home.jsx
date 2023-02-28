@@ -2,6 +2,8 @@ import React from "react";
 import Journey from "../components/Journey";
 import LadyForm from "../components/LadyForm";
 import Layout from "../components/Layout";
+import Nano from "../components/Nano";
+
 import ServiceCard from "../components/ServiceCard";
 import SwiperCard from "../components/SwiperCard";
 import Who from "../components/Who";
@@ -16,6 +18,7 @@ const Home = () => {
       <SwiperCard />
       <Journey />
       <LadyForm />
+      <Nano />
     </Layout>
   );
 };

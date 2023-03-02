@@ -35,7 +35,7 @@ function FAQ() {
         <div key={index} className=" py-4">
           <button
             onClick={() => handleClick(index)}
-            className="flex justify-between text-white items-center w-full px-4 py-2 text-lg font-medium text-left  focus:outline-none "
+            className="flex justify-between border-l-8 rounded-sm border-[#FF7D00]  text-white items-center w-full px-4 py-2 text-lg font-medium text-left  focus:outline-none "
           >
             <span>{faq.question}</span>
             <ChevronDownIcon

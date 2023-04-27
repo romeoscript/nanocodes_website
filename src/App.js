@@ -5,6 +5,7 @@ import Registration from "./pages/Registration";
 import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
+import Blog from "./pages/Blog";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/portfolio",
     element: <Portfolio/>,
+  },
+  {
+    path: "/blogs",
+    element: <Blog/>,
   },
 ]);
 function App() {

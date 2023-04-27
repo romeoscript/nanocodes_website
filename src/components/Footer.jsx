@@ -7,7 +7,7 @@ import { HiLocationMarker } from 'react-icons/hi';
 const Footer = () => {
   return (
     <>
-      <section className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[2%] p-[1rem] text-white">
+      <section className="grid bg-[#02072f] grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[2%] p-[1rem] text-white">
         <aside>
           <img src={logo} alt="" />
           <ul>
@@ -37,7 +37,7 @@ const Footer = () => {
           <p className="flex items-center justify-center mt-[1rem] font-bold"><BsFacebook className="mx-[0.5rem]"/> <BsTwitter className="mx-[0.5rem]"/> <BsInstagram className="mx-[0.5rem]"/></p>
         </aside>
       </section>
-      <p className="text-center text-white">@Nanocodes Programming 2023</p>
+      <p className="text-center text-white bg-[#02072f]">@Nanocodes Programming 2023</p>
     </>
   );
 };

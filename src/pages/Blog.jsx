@@ -16,6 +16,8 @@ import FooterBlog from '../components/FooterBlog';
 import post2 from './blog-post.2.md';
 import post3 from './blog-post.3.md';
 import post1 from './blog-post.1.md';
+import Layout from '../components/Layout';
+import Footer from '../components/Footer';
 
 
 const sections = [
@@ -89,7 +91,9 @@ const theme = createTheme();
 
 export default function Blog() {
   return (
-    <ThemeProvider theme={theme}>
+ 
+    <>
+     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="lg">
         <Header title="Blog" sections={sections} />
@@ -111,10 +115,9 @@ export default function Blog() {
           </Grid>
         </main>
       </Container>
-      <FooterBlog
-        title="Footer"
-        description="Something here to give the footer a purpose!"
-      />
+      
     </ThemeProvider>
+    <Footer />
+    </>
   );
 }

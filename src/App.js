@@ -6,6 +6,7 @@ import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Blog from "./pages/Blog";
+import Courses from "./pages/Courses";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
   {
     path: "/blogs",
     element: <Blog/>,
+  },
+  {
+    path: "/courses",
+    element: <Courses/>,
   },
 ]);
 function App() {

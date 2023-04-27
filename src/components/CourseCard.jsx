@@ -4,6 +4,7 @@ import wd from "../images/wd.png";
 import cf from "../images/cf.png";
 import { SwiperSlide } from "swiper/react";
 import SliderPerView from "./SliderPerView";
+import WhatshotIcon from "@mui/icons-material/Whatshot";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
 const CourseCard = () => {
@@ -59,6 +60,9 @@ const CourseCard = () => {
   ];
   return (
     <>
+      <div className="flex text-white items-center gap-3 w-3/5 m-auto mt-[3rem]">
+        <WhatshotIcon /> <p>Trending</p> <hr className="w-full"/>
+      </div>
       <SliderPerView>
         {cardInfo.map((cardData) => {
           return (
@@ -74,6 +78,7 @@ const CourseCard = () => {
           );
         })}
       </SliderPerView>
+      <hr className="w-3/5 m-auto" />
       <div className="grid grid-cols-4 w-4/5 m-auto my-[2rem] gap-4">
         {cardInfo.map((cardData) => {
           return (

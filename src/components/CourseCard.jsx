@@ -12,50 +12,63 @@ const CourseCard = () => {
     {
       img: AI,
       text: "Artificial Intelligience",
+      id:1
+
     },
     {
       img: wd,
       text: "Web Design",
+      id:2
     },
     {
       img: cd,
       text: "Creative Design",
+      id:3
     },
     {
       img: cf,
       text: "Crypto and Forex",
+        id:4
     },
     {
       img: AI,
       text: "Artificial Intelligience",
+      id:5
     },
     {
       img: wd,
       text: "Web Design",
+        id:6
     },
     {
       img: cd,
       text: "Creative Design",
+        id:7
     },
     {
       img: cf,
       text: "Crypto and Forex",
+        id:8
     },
     {
       img: AI,
       text: "Artificial Intelligience",
+        id:9
     },
     {
       img: wd,
       text: "Web Design",
+        id:10
     },
     {
       img: cd,
       text: "Creative Design",
+        id:11
     },
     {
       img: cf,
       text: "Crypto and Forex",
+        id:12
     },
   ];
   return (
